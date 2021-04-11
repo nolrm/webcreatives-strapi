@@ -44,14 +44,14 @@ const query = graphql`
           }
           image {
             childImageSharp {
-              gatsbyImageData(layout: FIXED)
+              gatsbyImageData(width: 800, height: 500)
             }
           }
           author {
             name
             picture {
               childImageSharp {
-                gatsbyImageData(layout: FIXED)
+                gatsbyImageData(width: 50, height: 50)
               }
             }
           }
