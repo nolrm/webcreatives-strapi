@@ -58,7 +58,3 @@ const Category = ({ data }) => {
 };
 
 export default Category;
-
-// fixed(width: 30, height: 30) {
-//   ...GatsbyImageSharpFixed
-// }

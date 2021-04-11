@@ -62,12 +62,3 @@ const query = graphql`
 `;
 
 export default IndexPage;
-
-
-// fixed(width: 800, height: 500) {
-//   src
-// }
-
-// fixed(width: 30, height: 30) {
-//   src
-// }
