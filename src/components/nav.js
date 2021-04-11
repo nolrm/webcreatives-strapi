@@ -1,5 +1,7 @@
 import React from "react";
 import { Link, StaticQuery, graphql } from "gatsby";
+// import { StaticImage } from "gatsby-plugin-image"
+import Logo from "../images/logo.svg"
 
 const Nav = () => (
   <StaticQuery
@@ -25,7 +27,9 @@ const Nav = () => (
             <div className="uk-navbar-left">
               <ul className="uk-navbar-nav">
                 <li>
-                  <Link to="/">{data.strapiGlobal.siteName}</Link>
+                  <Link className="site-logo" to="/">
+                    <img src={Logo} alt={data.strapiGlobal.siteName} />
+                  </Link>
                 </li>
               </ul>
             </div>
